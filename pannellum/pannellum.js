@@ -8,7 +8,7 @@ var config = {
     "scenes": {
         "01": {
             "title": "Sala Koncertowa 01",
-            "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 01.jpg",
+            "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 15.jpg",
             "hotSpots": [
                 {
                     "pitch": 0,
@@ -76,9 +76,13 @@ var viewer = pannellum.viewer('panorama', config);
 
 var depthanything = false;
 document.getElementById('guzik').addEventListener('click', function() {
-    
+
     depthanything = !depthanything;
-    
+
+    var currentPitch = viewer.getPitch();
+    var currentYaw = viewer.getYaw();
+    var currentScene = viewer.getScene();
+
     var oldPath = depthanything ? "Zamek_sferyczne_tls" : "depth_anything";
     var newPath = depthanything ? "depth_anything" : "Zamek_sferyczne_tls";
     
@@ -87,10 +91,12 @@ document.getElementById('guzik').addEventListener('click', function() {
         config.scenes[sceneId].panorama = currentPanorama.replace(oldPath, newPath);
     });
 
-    var currentScene = viewer.getScene();
-    
     viewer.destroy();
+
     config.default.firstScene = currentScene;
+    config.default.pitch = currentPitch;
+    config.default.yaw = currentYaw;
+
     viewer = pannellum.viewer('panorama', config);
 
     this.innerText = depthanything ? "Depth Nothing" : "Depth Anything";
