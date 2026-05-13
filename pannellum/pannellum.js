@@ -1,25 +1,38 @@
 import config from './koncertowa.json' with { type: 'json' };
 
-var viewer = pannellum.viewer('panorama', config);
+let viewer = pannellum.viewer('panorama', config);
 
-var depthanything = false;
+// let dot = document.createElement('div');
+// dot.style.width = '10px';
+// dot.style.height = '10px';
+// dot.style.background = 'red';
+// dot.style.position = 'fixed';
+// dot.style.left = '50%';
+// dot.style.top = '50%';
+// dot.style.transform = 'translate(-50%, -50%)';
+// dot.style.pointerEvents = 'none';
+// dot.style.zIndex = '9999';
+//
+// document.body.appendChild(dot);
+
+let depthanything = false;
 document.getElementById('guzik').addEventListener('click', function() {
 
     depthanything = !depthanything;
 
-    var currentPitch = viewer.getPitch();
-    var currentYaw = viewer.getYaw();
-    var currentScene = viewer.getScene();
+    let currentPitch = viewer.getPitch();
+    let currentYaw = viewer.getYaw();
+    let currentScene = viewer.getScene();
 
-    var oldPath = depthanything ? "Zamek_sferyczne_tls" : "depth_anything";
-    var newPath = depthanything ? "depth_anything" : "Zamek_sferyczne_tls";
+    // confirm(viewer.getYaw() + ' ' + viewer.getPitch());
+
+    let oldPath = depthanything ? "Zamek_sferyczne_tls" : "depth_anything";
+    let newPath = depthanything ? "depth_anything" : "Zamek_sferyczne_tls";
     
     Object.keys(config.scenes).forEach(function(sceneId) {
-        var currentPanorama = config.scenes[sceneId].panorama;
+        let currentPanorama = config.scenes[sceneId].panorama;
         config.scenes[sceneId].panorama = currentPanorama.replace(oldPath, newPath);
     });
-
-    viewer.destroy();
 
     config.default.firstScene = currentScene;
     config.default.pitch = currentPitch;
