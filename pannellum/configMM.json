@@ -1,0 +1,547 @@
+﻿{
+  "default": {
+    "firstScene": "01-koncertowa",
+    "sceneFadeDuration": 2000,
+    "autoLoad": true
+  },
+  "scenes": {
+    "01-koncertowa": {
+      "title": "Sala Koncertowa 01",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 01.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 71,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -4,
+          "yaw": 105,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -4,
+          "yaw": 43,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -12,
+          "yaw": 150,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -12,
+          "yaw": 92,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -3.5,
+          "yaw": 88,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -4.6,
+          "yaw": 63.5,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        },
+        {
+          "pitch": -6.8,
+          "yaw": 77.4,
+          "type": "scene",
+          "text": "Sala Koncertowa 06",
+          "sceneId": "06-koncertowa"
+        },
+        {
+          "pitch": 1.8,
+          "yaw": 20.5,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        }
+      ]
+    },
+    "02-koncertowa": {
+      "title": "Sala Koncertowa 02",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 02.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 132.8,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -4,
+          "yaw": 163,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -3,
+          "yaw": 97,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -12,
+          "yaw": 50,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -12,
+          "yaw": 107,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -4.3,
+          "yaw": 151,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -4.3,
+          "yaw": 122.8,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        },
+        {
+          "pitch": -7.5,
+          "yaw": 127,
+          "type": "scene",
+          "text": "Sala Koncertowa 06",
+          "sceneId": "06-koncertowa"
+        }
+      ]
+    },
+    "03-koncertowa": {
+      "title": "Sala Koncertowa 03",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 03.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": -106,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -4,
+          "yaw": -46,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -3,
+          "yaw": 192,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -12,
+          "yaw": 102,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -12,
+          "yaw": 33,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -6.4,
+          "yaw": -78,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -7.6,
+          "yaw": -121,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        },
+        {
+          "pitch": -19.7,
+          "yaw":-107.2,
+          "type": "scene",
+          "text": "Sala Koncertowa 06",
+          "sceneId": "06-koncertowa"
+        }
+      ]
+    },
+    "04-koncertowa": {
+      "title": "Sala Koncertowa 04",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 04.jpg",
+      "hotSpots": [
+        {
+          "pitch": 14,
+          "yaw": -134,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -12.4,
+          "yaw": 61.7,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -5.5,
+          "yaw": 162.3,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -7,
+          "yaw": 124,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -8.5,
+          "yaw": 89,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -13,
+          "yaw": 124.2,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -7.2,
+          "yaw": -165.2,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        },
+        {
+            "pitch": -18.8,
+            "yaw":  147.6,
+            "type": "scene",
+            "text": "Sala Koncertowa 06",
+            "sceneId": "06-koncertowa"
+        }
+      ]
+    },
+    "05-koncertowa": {
+      "title": "Sala Koncertowa 05",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 05.jpg",
+      "hotSpots": [
+        {
+          "pitch": 17.9,
+          "yaw": 99.5,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -6,
+          "yaw": 178.9,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -10.3,
+          "yaw": -74.8,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -8,
+          "yaw": -107,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -7.4,
+          "yaw": -143.6,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -13.8,
+          "yaw": -136.5,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -6.4,
+          "yaw": 141.5,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -26.9,
+          "yaw": -135.6,
+          "type": "scene",
+          "text": "Sala Koncertowa 06",
+          "sceneId": "06-koncertowa"
+        }
+      ]
+    },
+    "06-koncertowa": {
+      "title": "Sala Koncertowa 06",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 06.jpg",
+      "hotSpots": [
+        {
+          "pitch": 13.3,
+          "yaw": 25.7,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -4.8,
+          "yaw": 107.8,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -6.5,
+          "yaw": -73,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -8,
+          "yaw": -142.5,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -8,
+          "yaw": 170.3,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -22.5,
+          "yaw": -175.7,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -9.4,
+          "yaw": 63.9,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -12.7,
+          "yaw": 2.8,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        }
+      ]
+    },
+    "01-senacka": {
+      "title": "Sala Senacka 01",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 01.jpg",
+      "hotSpots": [
+        {
+          "pitch": -1.6,
+          "yaw": 109.1,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -12.1,
+          "yaw": -159.9,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -14.4,
+          "yaw": -111.9,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -8.9,
+          "yaw": -93.8,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -6.6,
+          "yaw": -80.2,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        }
+      ]
+    },
+    "02-senacka": {
+      "title": "Sala Senacka 02",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 03.jpg",
+      "hotSpots": [
+        {
+          "pitch": -12.1,
+          "yaw": 102.1,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -15.6,
+          "yaw": 45.8,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -9.4,
+          "yaw": 31.3,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -5.8,
+          "yaw": 30.1,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        }
+      ]
+    },
+    "03-senacka": {
+      "title": "Sala Senacka 03",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 04.jpg",
+      "hotSpots": [
+        {
+          "pitch": -14.7,
+          "yaw": -82.3,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch":-16.2,
+          "yaw": -5,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -18.5,
+          "yaw": 141.4,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -8.6,
+          "yaw": 150,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        }
+      ]
+    },
+    "04-senacka": {
+      "title": "Sala Senacka 04",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 05.jpg",
+      "hotSpots": [
+        {
+          "pitch": -9,
+          "yaw": 4,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -9.2,
+          "yaw": 45.7,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -19.1,
+          "yaw": 27.6,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -14.4,
+          "yaw": -136.7,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        }
+      ]
+    },
+    "05-senacka": {
+      "title": "Sala Senacka 05",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 06.jpg",
+      "hotSpots": [
+        {
+          "pitch": -6.5,
+          "yaw":  -7.3,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -6.1,
+          "yaw": 21.4,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -9.1,
+          "yaw": 11.9,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -15.9,
+          "yaw": 20.6,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        }
+      ]
+    }
+  }
+}
