@@ -1,0 +1,1213 @@
+﻿{
+  "default": {
+    "firstScene": "01-koncertowa",
+    "sceneFadeDuration": 2000,
+    "autoLoad": true
+  },
+  "scenes": {
+    "01-koncertowa": {
+      "title": "Sala Koncertowa 01",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 01.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 71,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy - dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -4,
+          "yaw": 105,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -4,
+          "yaw": 43,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -12,
+          "yaw": 150,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -12,
+          "yaw": 92,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -3.5,
+          "yaw": 88,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -4.6,
+          "yaw": 63.5,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        },
+        {
+          "pitch": -6.8,
+          "yaw": 77.4,
+          "type": "scene",
+          "text": "Sala Koncertowa 06",
+          "sceneId": "06-koncertowa"
+        },
+        {
+          "pitch": 1.8,
+          "yaw": 20.5,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -3.2,
+          "yaw": 20.5,
+          "type": "scene",
+          "text": "Sala Tronowa 01",
+          "sceneId": "01-tronowa" 
+        }
+      ]
+    },
+    "02-koncertowa": {
+      "title": "Sala Koncertowa 02",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 02.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 132.8,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -4,
+          "yaw": 163,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -3,
+          "yaw": 97,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -12,
+          "yaw": 50,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -12,
+          "yaw": 107,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -4.3,
+          "yaw": 151,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -4.3,
+          "yaw": 122.8,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        },
+        {
+          "pitch": -7.5,
+          "yaw": 127,
+          "type": "scene",
+          "text": "Sala Koncertowa 06",
+          "sceneId": "06-koncertowa"
+        }
+      ]
+    },
+    "03-koncertowa": {
+      "title": "Sala Koncertowa 03",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 03.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": -106,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -4,
+          "yaw": -46,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -3,
+          "yaw": 192,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -12,
+          "yaw": 102,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -12,
+          "yaw": 33,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -6.4,
+          "yaw": -78,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -7.6,
+          "yaw": -121,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        },
+        {
+          "pitch": -19.7,
+          "yaw":-107.2,
+          "type": "scene",
+          "text": "Sala Koncertowa 06",
+          "sceneId": "06-koncertowa"
+        }
+      ]
+    },
+    "04-koncertowa": {
+      "title": "Sala Koncertowa 04",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 04.jpg",
+      "hotSpots": [
+        {
+          "pitch": 14,
+          "yaw": -134,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -12.4,
+          "yaw": 61.7,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -5.5,
+          "yaw": 162.3,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -7,
+          "yaw": 124,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -8.5,
+          "yaw": 89,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -13,
+          "yaw": 124.2,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -7.2,
+          "yaw": -165.2,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        },
+        {
+            "pitch": -18.8,
+            "yaw":  147.6,
+            "type": "scene",
+            "text": "Sala Koncertowa 06",
+            "sceneId": "06-koncertowa"
+        }
+      ]
+    },
+    "05-koncertowa": {
+      "title": "Sala Koncertowa 05",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 05.jpg",
+      "hotSpots": [
+        {
+          "pitch": 17.9,
+          "yaw": 99.5,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -6,
+          "yaw": 178.9,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -10.3,
+          "yaw": -74.8,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -8,
+          "yaw": -107,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -7.4,
+          "yaw": -143.6,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -13.8,
+          "yaw": -136.5,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -6.4,
+          "yaw": 141.5,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -26.9,
+          "yaw": -135.6,
+          "type": "scene",
+          "text": "Sala Koncertowa 06",
+          "sceneId": "06-koncertowa"
+        }
+      ]
+    },
+    "06-koncertowa": {
+      "title": "Sala Koncertowa 06",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 06.jpg",
+      "hotSpots": [
+        {
+          "pitch": 13.3,
+          "yaw": 25.7,
+          "type": "info",
+          "text": "portret Stanisława Augusta w czerwonej bakieszy – dzieło Per Kfarra Starszego"
+        },
+        {
+          "pitch": -4.8,
+          "yaw": 107.8,
+          "type": "info",
+          "text": "rzeźba Amfitryty"
+        },
+        {
+          "pitch": -6.5,
+          "yaw": -73,
+          "type": "info",
+          "text": "rzeźba Posejdona"
+        },
+        {
+          "pitch": -8,
+          "yaw": -142.5,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -8,
+          "yaw": 170.3,
+          "type": "scene",
+          "text": "Sala Koncertowa 02",
+          "sceneId": "02-koncertowa"
+        },
+        {
+          "pitch": -22.5,
+          "yaw": -175.7,
+          "type": "scene",
+          "text": "Sala Koncertowa 03",
+          "sceneId": "03-koncertowa"
+        },
+        {
+          "pitch": -9.4,
+          "yaw": 63.9,
+          "type": "scene",
+          "text": "Sala Koncertowa 04",
+          "sceneId": "04-koncertowa"
+        },
+        {
+          "pitch": -12.7,
+          "yaw": 2.8,
+          "type": "scene",
+          "text": "Sala Koncertowa 05",
+          "sceneId": "05-koncertowa"
+        }
+      ]
+    },
+    "01-senacka": {
+      "title": "Sala Senacka 01",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 01.jpg",
+      "hotSpots": [
+        {
+          "pitch": -1.6,
+          "yaw": 109.1,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -12.1,
+          "yaw": -159.9,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -14.4,
+          "yaw": -111.9,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -8.9,
+          "yaw": -93.8,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -6.6,
+          "yaw": -80.2,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": -82.3,
+          "type": "scene",
+          "text": "Sala Senacka 06",
+          "sceneId": "06-senacka"
+        },
+        {
+          "pitch": -3.9,
+          "yaw": -87.4,
+          "type": "scene",
+          "text": "Sala Senacka 07",
+          "sceneId": "07-senacka"
+        },
+        {
+          "pitch": -4.1,
+          "yaw": -71.2,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        }
+      ]
+    },
+    "02-senacka": {
+      "title": "Sala Senacka 02",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 03.jpg",
+      "hotSpots": [
+        {
+          "pitch": -12.1,
+          "yaw": 102.1,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -15.6,
+          "yaw": 45.8,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -9.4,
+          "yaw": 31.3,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -5.8,
+          "yaw": 30.1,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": 24.2,
+          "type": "scene",
+          "text": "Sala Senacka 06",
+          "sceneId": "06-senacka"
+        },
+        {
+          "pitch": -4.0,
+          "yaw": 13.3,
+          "type": "scene",
+          "text": "Sala Senacka 07",
+          "sceneId": "07-senacka"
+        },
+        {
+          "pitch": -3.6,
+          "yaw": 30.7,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        }
+      ]
+    },
+    "03-senacka": {
+      "title": "Sala Senacka 03",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 04.jpg",
+      "hotSpots": [
+        {
+          "pitch": -14.7,
+          "yaw": -82.3,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch":-16.2,
+          "yaw": -5,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -18.5,
+          "yaw": 141.4,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -8.6,
+          "yaw": 150,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        },
+        {
+          "pitch": -6.5,
+          "yaw": 142.4,
+          "type": "scene",
+          "text": "Sala Senacka 06",
+          "sceneId": "06-senacka"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": 131.8,
+          "type": "scene",
+          "text": "Sala Senacka 07",
+          "sceneId": "07-senacka"
+        },
+        {
+          "pitch": -4.8,
+          "yaw": 153.9,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        }
+      ]
+    },
+    "04-senacka": {
+      "title": "Sala Senacka 04",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 05.jpg",
+      "hotSpots": [
+        {
+          "pitch": -9,
+          "yaw": 4,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -9.2,
+          "yaw": 45.7,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -19.1,
+          "yaw": 27.6,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -14.4,
+          "yaw": -136.7,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        },
+        {
+          "pitch": -9.3,
+          "yaw": -152.1,
+          "type": "scene",
+          "text": "Sala Senacka 06",
+          "sceneId": "06-senacka"
+        },
+        {
+          "pitch": -6.7,
+          "yaw": -166.3,
+          "type": "scene",
+          "text": "Sala Senacka 07",
+          "sceneId": "07-senacka"
+        },
+        {
+          "pitch": -6.0,
+          "yaw": -137.7,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        }
+      ]
+    },
+    "05-senacka": {
+      "title": "Sala Senacka 05",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 06.jpg",
+      "hotSpots": [
+        {
+          "pitch": -6.5,
+          "yaw":  -7.3,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -6.1,
+          "yaw": 21.4,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -9.1,
+          "yaw": 11.9,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -15.9,
+          "yaw": 20.6,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -19.1,
+          "yaw": 163.5,
+          "type": "scene",
+          "text": "Sala Senacka 06",
+          "sceneId": "06-senacka"
+        },
+        {
+          "pitch": -9.3,
+          "yaw": 153.3,
+          "type": "scene",
+          "text": "Sala Senacka 07",
+          "sceneId": "07-senacka"
+        },
+        {
+          "pitch": -9.9,
+          "yaw": -162.5,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        }
+      ]
+    },
+    "06-senacka": {
+      "title": "Sala Senacka 06",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 07.jpg",
+      "hotSpots": [
+        {
+          "pitch": -4.7,
+          "yaw":  131.6,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -4.7,
+          "yaw": 152.0,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -6.5,
+          "yaw": 143.2,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -9.9,
+          "yaw": 143.6,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -22.6,
+          "yaw": 117.5,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": -72.9,
+          "type": "scene",
+          "text": "Sala Senacka 07",
+          "sceneId": "07-senacka"
+        },
+        {
+          "pitch": -14.2,
+          "yaw": -0.9,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        }
+      ]
+    },
+    "07-senacka": {
+      "title": "Sala Senacka 07",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 08.jpg",
+      "hotSpots": [
+        {
+          "pitch": -3.8,
+          "yaw": 80.7,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -3.7,
+          "yaw": 97.6,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -6.2,
+          "yaw": 85.1,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": 88.4,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -9.4,
+          "yaw": 66.1,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        },
+        {
+          "pitch": -16.4,
+          "yaw": 59.3,
+          "type": "scene",
+          "text": "Sala Senacka 06",
+          "sceneId": "06-senacka"
+        },
+        {
+          "pitch": -12.5,
+          "yaw": 5.0,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        }
+      ]  
+    },
+    "08-senacka": {
+      "title": "Sala Senacka 08",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 09.jpg",
+      "hotSpots": [
+        {
+          "pitch": -3.7,
+          "yaw": -50.4,
+          "type": "scene",
+          "text": "Sala Senacka 01",
+          "sceneId": "01-senacka"
+        },
+        {
+          "pitch": -3.7,
+          "yaw": -34.8,
+          "type": "scene",
+          "text": "Sala Senacka 02",
+          "sceneId": "02-senacka"
+        },
+        {
+          "pitch": -4.8,
+          "yaw": -39.3,
+          "type": "scene",
+          "text": "Sala Senacka 03",
+          "sceneId": "03-senacka"
+        },
+        {
+          "pitch": -6.3,
+          "yaw": -35.5,
+          "type": "scene",
+          "text": "Sala Senacka 04",
+          "sceneId": "04-senacka"
+        },
+        {
+          "pitch": -10.2,
+          "yaw": -35.8,
+          "type": "scene",
+          "text": "Sala Senacka 05",
+          "sceneId": "05-senacka"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": -16.6,
+          "type": "scene",
+          "text": "Sala Senacka 06",
+          "sceneId": "06-senacka"
+        },
+        {
+          "pitch": -12.5,
+          "yaw": 36.3,
+          "type": "scene",
+          "text": "Sala Senacka 07",
+          "sceneId": "07-senacka"
+        },
+        {
+          "pitch": 18.8,
+          "yaw": -147.5,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 01",
+          "sceneId": "09-senacka"
+        }
+      ]  
+    },
+    "09-senacka": {
+      "title": "Sala Senacka (Balkon) 01",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 15.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        },
+        {
+          "pitch": -20.9,
+          "yaw": 168.9,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 02",
+          "sceneId": "10-senacka"
+        },
+        {
+          "pitch": -9.9,
+          "yaw": 170.0,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 03",
+          "sceneId": "11-senacka"
+        }
+      ]  
+    },
+    "10-senacka": {
+      "title": "Sala Senacka (Balkon) 02",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 14.jpg",
+      "hotSpots": [
+        {
+          "pitch": -2.6,
+          "yaw": -6.5,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        },
+        {
+          "pitch": -19.4,
+          "yaw": -6.5,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 01",
+          "sceneId": "09-senacka"
+        },
+        {
+          "pitch": -19.7,
+          "yaw": 171.0,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 03",
+          "sceneId": "11-senacka"
+        },
+        {
+          "pitch": -9.0,
+          "yaw": 171.6,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 04",
+          "sceneId": "12-senacka"
+        },
+        {
+          "pitch": -6.3,
+          "yaw": 171.7,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 05",
+          "sceneId": "13-senacka"
+        },
+        {
+          "pitch": -4.8,
+          "yaw": 171.8,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 06",
+          "sceneId": "14-senacka"
+        }
+      ] 
+    },
+    "11-senacka": {
+      "title": "Sala Senacka (Balkon) 03",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 13.jpg",
+      "hotSpots": [
+        {
+          "pitch": -1.9,
+          "yaw": -8.1,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        },
+        {
+          "pitch": -10.5,
+          "yaw": -8.3,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 01",
+          "sceneId": "09-senacka"
+        },
+        {
+          "pitch": -20.0,
+          "yaw": -7.1,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 02",
+          "sceneId": "10-senacka"
+        },
+        {
+          "pitch": -15.2,
+          "yaw": 170.3,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 04",
+          "sceneId": "12-senacka"
+        },
+        {
+          "pitch": -8.8,
+          "yaw": 170.6,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 05",
+          "sceneId": "13-senacka"
+        },
+        {
+          "pitch": -6.2,
+          "yaw": 170.8,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 06",
+          "sceneId": "14-senacka"
+        }
+      ] 
+    },
+    "12-senacka": {
+      "title": "Sala Senacka (Balkon) 04",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 12.jpg",
+      "hotSpots": [
+        {
+          "pitch": -1.6,
+          "yaw": -6.8,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        },
+        {
+          "pitch": -6.5,
+          "yaw": -6.7,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 01",
+          "sceneId": "09-senacka"
+        },
+        {
+          "pitch": -9.4,
+          "yaw": -6.2,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 02",
+          "sceneId": "10-senacka"
+        },
+        {
+          "pitch": -16.8,
+          "yaw": -5.2,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 03",
+          "sceneId": "11-senacka"
+        },
+        {
+          "pitch": -19.0,
+          "yaw": 170.1,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 05",
+          "sceneId": "13-senacka"
+        },
+        {
+          "pitch": -9.9,
+          "yaw": 171.2,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 06",
+          "sceneId": "14-senacka"
+        }
+      ] 
+    },
+    "13-senacka": {
+      "title": "Sala Senacka (Balkon) 05",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 11.jpg",
+      "hotSpots": [
+        {
+          "pitch": -1.5,
+          "yaw": -6.1,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": -6.1,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 01",
+          "sceneId": "09-senacka"
+        },
+        {
+          "pitch": -6.3,
+          "yaw": -6.0,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 02",
+          "sceneId": "10-senacka"
+        },
+        {
+          "pitch": -8.9,
+          "yaw": -5.8,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 03",
+          "sceneId": "11-senacka"
+        },
+        {
+          "pitch": -19.6,
+          "yaw": -4.4,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 04",
+          "sceneId": "12-senacka"
+        },
+        {
+          "pitch": -20.0,
+          "yaw": 171.1,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 06",
+          "sceneId": "14-senacka"
+        }
+      ] 
+    },
+    "14-senacka": {
+      "title": "Sala Senacka (Balkon) 06",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 10.jpg",
+      "hotSpots": [
+        {
+          "pitch": -1.1,
+          "yaw": -4.6,
+          "type": "scene",
+          "text": "Sala Senacka 08",
+          "sceneId": "08-senacka"
+        },
+        {
+          "pitch": -3.9,
+          "yaw": -4.5,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 01",
+          "sceneId": "09-senacka"
+        },
+        {
+          "pitch": -4.8,
+          "yaw": -4.4,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 02",
+          "sceneId": "10-senacka"
+        },
+        {
+          "pitch": -6.3,
+          "yaw": -4.2,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 03",
+          "sceneId": "11-senacka"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -3.9,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 04",
+          "sceneId": "12-senacka"
+        },
+        {
+          "pitch": -19.6,
+          "yaw": -2.2,
+          "type": "scene",
+          "text": "Sala Senacka (Balkon) 05",
+          "sceneId": "13-senacka"
+        }
+      ] 
+    },
+    "01-tronowa": {
+      "title": "Sala Tronowa 01",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat1.jpg",
+      "hotSpots": [
+        {
+          "pitch": -0.2,
+          "yaw": 53.4,
+          "type": "scene",
+          "text": "Sala Koncertowa 01",
+          "sceneId": "01-koncertowa"
+        },
+        {
+          "pitch": -16.1,
+          "yaw": 87.4,
+          "type": "scene",
+          "text": "Sala Tronowa 02",
+          "sceneId": "02-tronowa"
+        },
+        {
+          "pitch": -11.4,
+          "yaw": 38.7,
+          "type": "scene",
+          "text": "Sala Tronowa 03",
+          "sceneId": "03-tronowa"
+        },
+        {
+          "pitch": -15.8,
+          "yaw": 1.3,
+          "type": "scene",
+          "text": "Sala Tronowa 04",
+          "sceneId": "04-tronowa"
+        }
+      ] 
+    },
+    "02-tronowa": {
+      "title": "Sala Tronowa 02",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat2.jpg",
+      "hotSpots": [
+        {
+          "pitch": -15.4,
+          "yaw": -7.9,
+          "type": "scene",
+          "text": "Sala Tronowa 01",
+          "sceneId": "01-tronowa"
+        },
+        {
+          "pitch": -14.3,
+          "yaw": 75.4,
+          "type": "scene",
+          "text": "Sala Tronowa 03",
+          "sceneId": "03-tronowa"
+        },
+        {
+          "pitch": -11.9,
+          "yaw": 33.9,
+          "type": "scene",
+          "text": "Sala Tronowa 04",
+          "sceneId": "04-tronowa"
+        }
+      ] 
+    },
+    "03-tronowa": {
+      "title": "Sala Tronowa 03",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat3.jpg",
+      "hotSpots": [
+        {
+          "pitch": -10.9,
+          "yaw": 107.8,
+          "type": "scene",
+          "text": "Sala Tronowa 01",
+          "sceneId": "01-tronowa"
+        },
+        {
+          "pitch": -14.3,
+          "yaw": 61.3,
+          "type": "scene",
+          "text": "Sala Tronowa 02",
+          "sceneId": "02-tronowa"
+        },
+        {
+          "pitch": -17.1,
+          "yaw": 144.2,
+          "type": "scene",
+          "text": "Sala Tronowa 04",
+          "sceneId": "04-tronowa"
+        }
+      ] 
+    },
+    "04-tronowa": {
+      "title": "Sala Tronowa 04",
+      "panorama": "./Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat4.jpg",
+      "hotSpots": [
+        {
+          "pitch": -14.7,
+          "yaw": 177.8,
+          "type": "scene",
+          "text": "Sala Tronowa 01",
+          "sceneId": "01-tronowa"
+        },
+        {
+          "pitch": -11.1,
+          "yaw": 134.3,
+          "type": "scene",
+          "text": "Sala Tronowa 02",
+          "sceneId": "02-tronowa"
+        },
+        {
+          "pitch": -17.2,
+          "yaw": 83.9,
+          "type": "scene",
+          "text": "Sala Tronowa 03",
+          "sceneId": "03-tronowa"
+        }
+      ] 
+    }
+  }
+}

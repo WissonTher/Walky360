@@ -1,4 +1,4 @@
-import config from './koncertowa.json' with { type: 'json' };
+import config from './config.json' with { type: 'json' };
 
 let viewer = pannellum.viewer('panorama', config);
 
@@ -37,7 +37,7 @@ document.getElementById('guzik').addEventListener('click', function() {
     config.default.firstScene = currentScene;
     config.default.pitch = currentPitch;
     config.default.yaw = currentYaw;
-
+    viewer.destroy();
     viewer = pannellum.viewer('panorama', config);
 
     this.innerText = depthanything ? "Depth Nothing" : "Depth Anything";
