@@ -1,6 +1,6 @@
 const roundIcon = L.divIcon({
     className: '',
-    html: '<div style="width:16px;height:16px;border-radius:50%;background:white;border:3px solid #2563eb;"></div>',
+    html: '<div style="width:5px;height:5px;border-radius:50%;background:white;border:3px solid #09d0b2;"></div>',
     iconSize: [16, 16],
     iconAnchor: [8, 8],
     popupAnchor: [0, -10]
@@ -15,7 +15,7 @@ const map = L.map('map-container', {
     maxBoundsViscosity: 1.0
 });
 
-const image = L.imageOverlay("plan_budynku.png", bounds).addTo(map);
+const image = L.imageOverlay("./pannellum/plan_budynku.png", bounds).addTo(map);
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
 let aktualnePietro = 0;
@@ -25,17 +25,17 @@ const markeryPietroII = L.layerGroup();
 
 document.getElementById('zmiana_pietra').addEventListener('click', function() {
     if (aktualnePietro === 0) {
-        image.setUrl("plan_budynku_1.png");
+        image.setUrl("./pannellum/plan_budynku_1.png");
         map.addLayer(markeryPietroII);
         map.removeLayer(markeryPietroI);
         aktualnePietro = 1;
-        this.innerText = "Pokaż I piętro";
+        this.innerText = "Piętro II";
     } else {
-        image.setUrl("plan_budynku.png");
+        image.setUrl("./pannellum/plan_budynku.png");
         map.addLayer(markeryPietroI);
         map.removeLayer(markeryPietroII);
         aktualnePietro = 0;
-        this.innerText = "Pokaż II Piętro"
+        this.innerText = "Piętro I"
     }
 })
 
@@ -49,7 +49,7 @@ map.on('click', function(e) {
     console.log(`Sugerowane współrzędne dla markera: [${e.latlng.lat.toFixed(0)}, ${e.latlng.lng.toFixed(0)}]`);
 });
 
-const markerSK1 = L.marker([912, 286], {icon: roundIcon}).addTo(map);
+const markerSK1 = L.marker([912, 286], {icon: roundIcon});
 markerSK1.bindPopup("Sala koncertowa 01");
 markerSK1.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("01-koncertowa") }
@@ -57,7 +57,7 @@ markerSK1.on('click', function () {
 })
 markeryPietroI.addLayer(markerSK1);
 
-const markerSK5 = L.marker([702, 354], {icon: roundIcon}).addTo(map);
+const markerSK5 = L.marker([702, 354], {icon: roundIcon});
 markerSK5.bindPopup("Sala koncertowa 05");
 markerSK5.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("05-koncertowa") }
@@ -65,7 +65,7 @@ markerSK5.on('click', function () {
 })
 markeryPietroI.addLayer(markerSK5);
 
-const markerSK2 = L.marker([845, 189], {icon: roundIcon}).addTo(map);
+const markerSK2 = L.marker([845, 189], {icon: roundIcon});
 markerSK2.bindPopup("Sala Koncertowa 02");
 markerSK2.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("02-koncertowa") }
@@ -73,7 +73,7 @@ markerSK2.on('click', function () {
 })
 markeryPietroI.addLayer(markerSK2);
 
-const markerSK3 = L.marker([812, 264], {icon: roundIcon}).addTo(map);
+const markerSK3 = L.marker([812, 264], {icon: roundIcon});
 markerSK3.bindPopup("Sala Koncertowa 03");
 markerSK3.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("03-koncertowa") }
@@ -81,7 +81,7 @@ markerSK3.on('click', function () {
 })
 markeryPietroI.addLayer(markerSK3);
 
-const markerSK6 = L.marker([744, 282], {icon: roundIcon}).addTo(map);
+const markerSK6 = L.marker([744, 282], {icon: roundIcon});
 markerSK6.bindPopup("Sala Koncertowa 06");
 markerSK6.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("06-koncertowa") }
@@ -89,7 +89,7 @@ markerSK6.on('click', function () {
 })
 markeryPietroI.addLayer(markerSK6);
 
-const markerSK4 = L.marker([675, 265], {icon: roundIcon}).addTo(map);
+const markerSK4 = L.marker([675, 265], {icon: roundIcon});
 markerSK4.bindPopup("Sala Koncertowa 04");
 markerSK4.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("04-koncertowa") }
@@ -97,7 +97,7 @@ markerSK4.on('click', function () {
 })
 markeryPietroI.addLayer(markerSK4);
 
-const markerST1 = L.marker([1261, 914], {icon: roundIcon}).addTo(map);
+const markerST1 = L.marker([1261, 914], {icon: roundIcon});
 markerST1.bindPopup("Sala Tronowa 01");
 markerST1.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("01-tronowa") }
@@ -105,7 +105,7 @@ markerST1.on('click', function () {
 })
 markeryPietroI.addLayer(markerST1);
 
-const markerST2 = L.marker([1239, 863], {icon: roundIcon}).addTo(map);
+const markerST2 = L.marker([1239, 863], {icon: roundIcon});
 markerST2.bindPopup("Sala Tronowa 02");
 markerST2.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("02-tronowa") }
@@ -113,7 +113,7 @@ markerST2.on('click', function () {
 })
 markeryPietroI.addLayer(markerST2);
 
-const markerST3 = L.marker([1136, 909], {icon: roundIcon}).addTo(map);
+const markerST3 = L.marker([1136, 909], {icon: roundIcon});
 markerST3.bindPopup("Sala Tronowa 03");
 markerST3.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("03-tronowa") }
@@ -121,7 +121,7 @@ markerST3.on('click', function () {
 })
 markeryPietroI.addLayer(markerST3);
 
-const markerST4 = L.marker([1158, 952], {icon: roundIcon}).addTo(map);
+const markerST4 = L.marker([1158, 952], {icon: roundIcon});
 markerST4.bindPopup("Sala Tronowa 04");
 markerST4.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("04-tronowa") }
@@ -129,7 +129,7 @@ markerST4.on('click', function () {
 })
 markeryPietroI.addLayer(markerST4);
 
-const markerSS1 = L.marker([280, 899], {icon: roundIcon}).addTo(map);
+const markerSS1 = L.marker([280, 899], {icon: roundIcon});
 markerSS1.bindPopup("Sala Senacka 01");
 markerSS1.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("01-senacka") }
@@ -137,7 +137,7 @@ markerSS1.on('click', function () {
 })
 markeryPietroI.addLayer(markerSS1);
 
-const markerSS2 = L.marker([162, 904], {icon: roundIcon}).addTo(map);
+const markerSS2 = L.marker([162, 904], {icon: roundIcon});
 markerSS2.bindPopup("Sala Senacka 02");
 markerSS2.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("02-senacka") }
@@ -145,7 +145,7 @@ markerSS2.on('click', function () {
 })
 markeryPietroI.addLayer(markerSS2);
 
-const markerSS3 = L.marker([228, 862], {icon: roundIcon}).addTo(map);
+const markerSS3 = L.marker([228, 862], {icon: roundIcon});
 markerSS3.bindPopup("Sala Senacka 03");
 markerSS3.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("03-senacka") }
@@ -153,7 +153,7 @@ markerSS3.on('click', function () {
 })
 markeryPietroI.addLayer(markerSS3);
 
-const markerSS4 = L.marker([236, 801], {icon: roundIcon}).addTo(map);
+const markerSS4 = L.marker([236, 801], {icon: roundIcon});
 markerSS4.bindPopup("Sala Senacka 04");
 markerSS4.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("04-senacka") }
@@ -161,7 +161,7 @@ markerSS4.on('click', function () {
 })
 markeryPietroI.addLayer(markerSS4);
 
-const markerSS5 = L.marker([255, 743], {icon: roundIcon}).addTo(map);
+const markerSS5 = L.marker([255, 743], {icon: roundIcon});
 markerSS5.bindPopup("Sala Senacka 05");
 markerSS5.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("05-senacka") }
@@ -169,7 +169,7 @@ markerSS5.on('click', function () {
 })
 markeryPietroI.addLayer(markerSS5);
 
-const markerSS6 = L.marker([226, 723], {icon: roundIcon}).addTo(map);
+const markerSS6 = L.marker([226, 723], {icon: roundIcon});
 markerSS6.bindPopup("Sala Senacka 06");
 markerSS6.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("06-senacka") }
@@ -177,7 +177,7 @@ markerSS6.on('click', function () {
 })
 markeryPietroI.addLayer(markerSS6);
 
-const markerSS7 = L.marker([168, 682], {icon: roundIcon}).addTo(map);
+const markerSS7 = L.marker([168, 682], {icon: roundIcon});
 markerSS7.bindPopup("Sala Senacka 07");
 markerSS7.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("07-senacka") }
@@ -185,7 +185,7 @@ markerSS7.on('click', function () {
 })
 markeryPietroI.addLayer(markerSS7);
 
-const markerSS8 = L.marker([273, 676], {icon: roundIcon}).addTo(map);
+const markerSS8 = L.marker([273, 676], {icon: roundIcon});
 markerSS8.bindPopup("Sala Senacka 08");
 markerSS8.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("08-senacka") }
@@ -193,7 +193,7 @@ markerSS8.on('click', function () {
 })
 markeryPietroI.addLayer(markerSS8);
 
-const markerSSB1 = L.marker([299, 692], {icon: roundIcon}).addTo(map);
+const markerSSB1 = L.marker([299, 692], {icon: roundIcon});
 markerSSB1.bindPopup("Sala Senacka (Balkon) 01");
 markerSSB1.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("09-senacka") }
@@ -201,7 +201,7 @@ markerSSB1.on('click', function () {
 })
 markeryPietroII.addLayer(markerSSB1);
 
-const markerSSB2 = L.marker([303, 723], {icon: roundIcon}).addTo(map);
+const markerSSB2 = L.marker([303, 723], {icon: roundIcon});
 markerSSB2.bindPopup("Sala Senacka (Balkon) 02");
 markerSSB2.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("10-senacka") }
@@ -209,7 +209,7 @@ markerSSB2.on('click', function () {
 })
 markeryPietroII.addLayer(markerSSB2);
 
-const markerSSB3 = L.marker([307, 756], {icon: roundIcon}).addTo(map);
+const markerSSB3 = L.marker([307, 756], {icon: roundIcon});
 markerSSB3.bindPopup("Sala Senacka (Balkon) 03");
 markerSSB3.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("11-senacka") }
@@ -217,7 +217,7 @@ markerSSB3.on('click', function () {
 })
 markeryPietroII.addLayer(markerSSB3);
 
-const markerSSB4 = L.marker([311, 792], {icon: roundIcon}).addTo(map);
+const markerSSB4 = L.marker([311, 792], {icon: roundIcon});
 markerSSB4.bindPopup("Sala Senacka (Balkon) 04");
 markerSSB4.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("12-senacka") }
@@ -225,7 +225,7 @@ markerSSB4.on('click', function () {
 })
 markeryPietroII.addLayer(markerSSB4);
 
-const markerSSB5 = L.marker([312, 840], {icon: roundIcon}).addTo(map);
+const markerSSB5 = L.marker([312, 840], {icon: roundIcon});
 markerSSB5.bindPopup("Sala Senacka (Balkon) 05");
 markerSSB5.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("13-senacka") }
@@ -233,7 +233,7 @@ markerSSB5.on('click', function () {
 })
 markeryPietroII.addLayer(markerSSB5);
 
-const markerSSB6 = L.marker([313, 886], {icon: roundIcon}).addTo(map);
+const markerSSB6 = L.marker([313, 886], {icon: roundIcon});
 markerSSB6.bindPopup("Sala Senacka (Balkon) 06");
 markerSSB6.on('click', function () {
     if (window.viewer) { window.viewer.loadScene("14-senacka") }

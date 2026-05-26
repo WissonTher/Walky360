@@ -7,7 +7,7 @@
   "scenes": {
     "01-koncertowa": {
       "title": "Sala Koncertowa 01",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 01.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 01.jpg",
       "hotSpots": [
         {
           "pitch": 0,
@@ -80,7 +80,7 @@
     },
     "02-koncertowa": {
       "title": "Sala Koncertowa 02",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 02.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 02.jpg",
       "hotSpots": [
         {
           "pitch": 0,
@@ -139,7 +139,7 @@
     },
     "03-koncertowa": {
       "title": "Sala Koncertowa 03",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 03.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 03.jpg",
       "hotSpots": [
         {
           "pitch": 0,
@@ -198,7 +198,7 @@
     },
     "04-koncertowa": {
       "title": "Sala Koncertowa 04",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 04.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 04.jpg",
       "hotSpots": [
         {
           "pitch": 14,
@@ -257,7 +257,7 @@
     },
     "05-koncertowa": {
       "title": "Sala Koncertowa 05",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 05.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 05.jpg",
       "hotSpots": [
         {
           "pitch": 17.9,
@@ -316,7 +316,7 @@
     },
     "06-koncertowa": {
       "title": "Sala Koncertowa 06",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 06.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Koncertowa-23022026- 06.jpg",
       "hotSpots": [
         {
           "pitch": 13.3,
@@ -375,7 +375,7 @@
     },
     "01-senacka": {
       "title": "Sala Senacka 01",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 01.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 01.jpg",
       "hotSpots": [
         {
           "pitch": -1.6,
@@ -437,7 +437,7 @@
     },
     "02-senacka": {
       "title": "Sala Senacka 02",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 03.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 03.jpg",
       "hotSpots": [
         {
           "pitch": -12.1,
@@ -492,7 +492,7 @@
     },
     "03-senacka": {
       "title": "Sala Senacka 03",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 04.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 04.jpg",
       "hotSpots": [
         {
           "pitch": -14.7,
@@ -547,7 +547,7 @@
     },
     "04-senacka": {
       "title": "Sala Senacka 04",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 05.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 05.jpg",
       "hotSpots": [
         {
           "pitch": -9,
@@ -602,7 +602,7 @@
     },
     "05-senacka": {
       "title": "Sala Senacka 05",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 06.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 06.jpg",
       "hotSpots": [
         {
           "pitch": -6.5,
@@ -657,7 +657,7 @@
     },
     "06-senacka": {
       "title": "Sala Senacka 06",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 07.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 07.jpg",
       "hotSpots": [
         {
           "pitch": -4.7,
@@ -712,7 +712,7 @@
     },
     "07-senacka": {
       "title": "Sala Senacka 07",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 08.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 08.jpg",
       "hotSpots": [
         {
           "pitch": -3.8,
@@ -767,7 +767,7 @@
     },
     "08-senacka": {
       "title": "Sala Senacka 08",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 09.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 09.jpg",
       "hotSpots": [
         {
           "pitch": -3.7,
@@ -829,7 +829,7 @@
     },
     "09-senacka": {
       "title": "Sala Senacka (Balkon) 01",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 15.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 15.jpg",
       "hotSpots": [
         {
           "pitch": 0,
@@ -856,7 +856,7 @@
     },
     "10-senacka": {
       "title": "Sala Senacka (Balkon) 02",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 14.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 14.jpg",
       "hotSpots": [
         {
           "pitch": -2.6,
@@ -904,7 +904,7 @@
     },
     "11-senacka": {
       "title": "Sala Senacka (Balkon) 03",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 13.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 13.jpg",
       "hotSpots": [
         {
           "pitch": -1.9,
@@ -952,7 +952,7 @@
     },
     "12-senacka": {
       "title": "Sala Senacka (Balkon) 04",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 12.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 12.jpg",
       "hotSpots": [
         {
           "pitch": -1.6,
@@ -1000,7 +1000,7 @@
     },
     "13-senacka": {
       "title": "Sala Senacka (Balkon) 05",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 11.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 11.jpg",
       "hotSpots": [
         {
           "pitch": -1.5,
@@ -1048,7 +1048,7 @@
     },
     "14-senacka": {
       "title": "Sala Senacka (Balkon) 06",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Senacka-23022026- 10.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Senacka-23022026- 10.jpg",
       "hotSpots": [
         {
           "pitch": -1.1,
@@ -1096,7 +1096,7 @@
     },
     "01-tronowa": {
       "title": "Sala Tronowa 01",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat1.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat1.jpg",
       "hotSpots": [
         {
           "pitch": -0.2,
@@ -1130,7 +1130,7 @@
     },
     "02-tronowa": {
       "title": "Sala Tronowa 02",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat2.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat2.jpg",
       "hotSpots": [
         {
           "pitch": -15.4,
@@ -1157,7 +1157,7 @@
     },
     "03-tronowa": {
       "title": "Sala Tronowa 03",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat3.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat3.jpg",
       "hotSpots": [
         {
           "pitch": -10.9,
@@ -1184,7 +1184,7 @@
     },
     "04-tronowa": {
       "title": "Sala Tronowa 04",
-      "panorama": "./Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat4.jpg",
+      "panorama": "./pannellum/Zamek_sferyczne_tls/ZK-Tronowa-24022026- 4m@kat4.jpg",
       "hotSpots": [
         {
           "pitch": -14.7,
